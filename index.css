@@ -1,0 +1,142 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  max-width: 100%;
+  text-transform: capitalize;
+}
+
+nav {
+  background-color: #218380;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+#main-section {
+  border: 1px solid #bebfc5;
+  box-shadow: rgba(136, 165, 191, 0.48) 16px 10px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 90px;
+  padding: 50px;
+  display: block;
+}
+
+#timeLeft {
+  padding-right: 20px;
+}
+
+#start-header {
+  margin-bottom: 10px;
+}
+
+.start-text {
+  line-height: 2.5;
+}
+
+main a,
+#submit,
+#back,
+#clear {
+  text-decoration: none;
+  color: #fff;
+  background-color: #218380;
+  padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#questions-container {
+  border: 2px solid #bebfc5;
+  box-shadow: rgba(136, 165, 191, 0.48) 16px 10px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 90px;
+  padding: 50px;
+  display: none;
+}
+
+#question {
+  text-align: center;
+  margin-bottom: 35px;
+  display: block;
+}
+
+#questions-container .choice-one,
+.choice-two,
+.choice-three,
+.choice-four {
+  background-color: #218380;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.8;
+}
+
+#leaderboard {
+  cursor: pointer;
+}
+
+#response {
+  margin-top: 20px;
+  border-top: 2px solid #bebfc5;
+  padding-top: 10px;
+}
+
+#done {
+  border: 2px solid #bebfc5;
+  box-shadow: rgba(136, 165, 191, 0.48) 16px 10px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 90px;
+  padding: 50px;
+  display: none;
+}
+
+#done h2 {
+  margin-bottom: 25px;
+}
+
+#done p {
+  margin-bottom: 19px;
+}
+
+#submit {
+  margin-left: 8px;
+}
+
+#highscores-section {
+  border: 2px solid #bebfc5;
+  box-shadow: rgba(136, 165, 191, 0.48) 16px 10px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 90px;
+  padding: 50px;
+  display: none;
+}

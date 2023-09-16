@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+       
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+
+        <div id="timeLeft">Time</div>
+
+        </nav>
+
+    </header>
+    <main id="main-section">
+        <h1 id="start-header">coding quiz challenge</h1>
+
+        <p class="start-text">try to answer the following questions within the time limit. <br> keep in mind that incorrect answers will penalized your score/time by ten seconds!</p>
+
+        <a href="#" id="start">start quiz</a>
+
+
+    </main>
+
+
+    <section id="questions-container">
+
+        <h1 id="question"></h1>
+
+        <button class="choice-one option"></button>
+        <button class="choice-two option"></button>
+        <button class="choice-three option"></button>
+        <button class="choice-four option"></button>
+
+         <div id="response"></div>
+
+       
+    </section>
+
+    <section id="done">
+        <h2>all done!</h2>
+
+        <p>your final score is <span id="score"></span></p>
+
+        <label for="input">enter initials:</label>
+        <input type="text" id="input" name="name" value="" placeholder="DN">
+
+        <a href="#" id="submit">submit!</a>
+
+    </section>
+
+    <section id="highscores-section">
+        <h2>highscores</h2>
+        <ul id="scores-list">
+            
+        </ul>
+        <a href="#"  id="back">go back</a>
+        <a href="#" id="clear">clear highscores</a>
+    </section>
+    <script type="text/javascript" src="/app.js"></script>
+</body>
+
+</html>
